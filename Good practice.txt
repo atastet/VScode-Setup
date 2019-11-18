@@ -2,7 +2,7 @@ Good practices project in Python
 
 1. Create a virtual env for your project
     "python3 -m venv .venv"
-    "source .venv/vbin/activate"
+    "source .venv/bin/activate"
     "apt-get install python3-tk"
     "python3 -m pip install  matplotlib" 
 
@@ -23,6 +23,14 @@ Good practices project in Python
     pdb pour debugger
         import pdb; pdb.set_race()
  
+    matplotlib
+    
+    numpy
+    
+    pandas
+        gerer des tableaux (dataframe)
+        panda.read_csv("name.csv", sep=';')
+
 Short cuts VScode
 
 1. Debugger 
