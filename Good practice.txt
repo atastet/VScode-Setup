@@ -22,3 +22,12 @@ GITHUB
 1. Connection 
 git config --global user.name "Your name here"
 git config --global user.email "your_email@example.com"
+
+2. Set up new repo
+
+echo "# VScode-Setup" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/atastet/VScode-Setup.git
+git push -u origin master
