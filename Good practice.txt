@@ -25,7 +25,7 @@ git config --global user.email "your_email@example.com"
 
 2. Set up new repo
 
-echo "# VScode-Setup" >> README.md
+echo "# VScode-Setup" >> README.mdls
 git init
 git add README.md
 git commit -m "first commit"
