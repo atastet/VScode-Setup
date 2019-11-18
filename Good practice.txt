@@ -5,6 +5,7 @@ Good practices project in Python
     "source .venv/bin/activate"
     "apt-get install python3-tk"
     "python3 -m pip install  matplotlib" 
+    pip install -r requirements.txt
 
     Ignore .env by git 
 
