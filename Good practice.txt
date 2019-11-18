@@ -12,6 +12,16 @@ Good practices project in Python
     then create a doc requirements.txt in order to indicate which lib are necessary 
     to install all lib at one time : pip install l -r requirements.txt
 
+2. Organize project
+    setup.py à la racine 
+    __init.py__ dans le repo qui contient mes libs 
+
+3. Lib utile 
+
+    argparse pour lire des arguments et et extension 
+        Voir parite.py pour utilisation
+
+ 
 Short cuts VScode
 
 1. Debugger 
@@ -40,3 +50,8 @@ git push -u origin master
 
 3. Rm a file 
     git rm -r --cached NAME*
+
+README 
+
+1. Saut de ligne 
+    Double space
