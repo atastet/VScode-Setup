@@ -1,0 +1,24 @@
+Good practices project in Python
+
+1. Create a virtual env for your project
+    "python3 -m venv .venv"
+    "source .venv/vbin/activate"
+    "apt-get install pyhton3-tk"
+    "python3 -m pip install  matplotlib" 
+
+Short cuts VScode 
+
+1. Debugger 
+    -   F9 : debug break 
+    -   F5 : continue or run debugger 
+2. Set by me
+    -   ctrl r ctrl r : run python file 
+3. General 
+    - ctrl s : save 
+    _ ctrl w : close window
+
+GITHUB 
+
+1. Connection 
+git config --global user.name "Your name here"
+git config --global user.email "your_email@example.com"
