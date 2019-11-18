@@ -8,7 +8,7 @@ Good practices project in Python
 
     Ignore .env by git 
 
-    create a doc .gitignore : .env/
+    create a doc .gitignore : .venv/
     then create a doc requirements.txt in order to indicate which lib are necessary 
     to install all lib at one time : pip install l -r requirements.txt
 
