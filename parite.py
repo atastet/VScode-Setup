@@ -14,7 +14,7 @@ def parse_arguments():
 def main():
     args = parse_arguments()
     if args.extension == 'csv':
-        c_an.launch_analysis('current_mps.csv')
+        c_an.launch_analysis('current_mps.cv')
     elif args.extension == 'xml':
         x_an.launch_analysis('SyceronBrut.xml')
 

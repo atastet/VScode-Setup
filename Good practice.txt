@@ -20,7 +20,8 @@ Good practices project in Python
 
     argparse pour lire des arguments et et extension 
         Voir parite.py pour utilisation
-
+    pdb pour debugger
+        import pdb; pdb.set_race()
  
 Short cuts VScode
 
