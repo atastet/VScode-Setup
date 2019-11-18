@@ -3,10 +3,16 @@ Good practices project in Python
 1. Create a virtual env for your project
     "python3 -m venv .venv"
     "source .venv/vbin/activate"
-    "apt-get install pyhton3-tk"
+    "apt-get install python3-tk"
     "python3 -m pip install  matplotlib" 
 
-Short cuts VScode 
+    Ignore .env by git 
+
+    create a doc .gitignore : .env/
+    then create a doc requirements.txt in order to indicate which lib are necessary 
+    to install all lib at one time : pip install l -r requirements.txt
+
+Short cuts VScode
 
 1. Debugger 
     -   F9 : debug break 
@@ -25,7 +31,7 @@ git config --global user.email "your_email@example.com"
 
 2. Set up new repo
 
-echo "# VScode-Setup" >> README.mdls
+echo "# VScode-Setup" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
